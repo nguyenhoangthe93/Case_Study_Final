@@ -1,6 +1,7 @@
 @import "./partials/front";
 @import "./partials/variable";
 @import "./partials/mixin";
+@import "./header";
 
 .main{
     color:$color-danger;
@@ -8,3 +9,4 @@
         color:blue;
     }
 }
+
