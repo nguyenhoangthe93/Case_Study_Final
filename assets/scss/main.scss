@@ -2,11 +2,56 @@
 @import "./partials/variable";
 @import "./partials/mixin";
 @import "./header";
+@import "./navbar";
+@import "./carousel";
+@import "./about";
+@import "./nav";
 
 .main{
-    color:$color-danger;
+    color:$danger;
     @media screen and (max-width:$sm){
         color:blue;
     }
 }
+
+.fact {
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../img/carousel-bg-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.booking {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/carousel-bg-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.footer {
+    background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9)),url(../img/carousel-bg-1.jpg) center center no-repeat;
+    background-size: cover;
+    padding-top: 5;
+}
+
+.btn{
+    &.btn.btn-secondary
+    {
+        color: #fff !important;
+    background-color: #0B2154 !important;
+    border-color: #0B2154 !important;
+    }
+    &.btn.btn-danger{
+        background-color: #ff0000 !important;
+        &:hover{
+            color: $black !important;
+        }
+    }
+}
+
+
+
+
 

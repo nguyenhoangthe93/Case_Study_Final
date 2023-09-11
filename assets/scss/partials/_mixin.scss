@@ -1,0 +1,25 @@
+@mixin font-size-base {
+    font-size: $font-size-base;
+  }
+
+  @mixin font-size-sm {
+    font-size: $font-size-sm;
+  }
+  
+  @mixin font-size-lg {
+    font-size: $font-size-lg;
+  }
+
+  @mixin border-radius-4 {
+    border-radius: 4px;
+  }
+
+  @mixin transition-shadow {
+    transition: $navbar-toggler-transition;
+  }
+
+
+  @mixin img-fluid {
+    max-width: 100%;
+    height: auto;
+  }

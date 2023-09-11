@@ -1,5 +1,47 @@
-$color-danger:red;
-$sm:576px;
-$md:768px;
-$lg:992px;
-$xl:1200px;
+$spacer: 16px;
+$navbar-padding-y: 8px;
+$navbar-padding-x: null;
+$font-size-base: 16;
+$font-size-lg: 20px;
+$nav-link-padding-y: 8px;
+$navbar-brand-margin-end: 16px;
+$navbar-brand-padding-y: 5;
+$navbar-toggler-padding-y: 4px;
+$navbar-toggler-padding-x: 12px;
+
+$navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+$border-width: 1px;
+
+$navbar-toggler-focus-width: 4px;
+$variable-prefix: bs-;
+
+
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+$black: #000;
+$white: #fff;
+$red: #fff;
+$danger: $red;
+
+
+$navbar-light-color: rgba($black, 0.55);
+$navbar-light-hover-color: rgba($black, 0.7);
+$navbar-light-active-color: rgba($black, 0.9);
+$navbar-light-disabled-color: rgba($black, 0.3);
+$navbar-light-toggler-border-color: rgba($black, 0.1);
+
+$navbar-dark-color: rgba($white, 0.55);
+$navbar-dark-hover-color: rgba($white, 0.75);
+$navbar-dark-active-color: $white;
+$navbar-dark-disabled-color: rgba($white, 0.25);
+$navbar-dark-toggler-border-color: rgba($white, 0.1);
+
+$navbar-dark-brand-color: $navbar-dark-active-color;
+$navbar-dark-brand-hover-color: $navbar-dark-active-color;
+$navbar-dark-brand-color-1: $navbar-dark-active-color;
+
+$carousel-control-transition: opacity 0.15s ease;
+$carousel-dark-control-icon-filter: invert(1) grayscale(100);
