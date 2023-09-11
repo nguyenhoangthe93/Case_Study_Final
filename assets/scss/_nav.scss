@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  
+}
+.nav-link.active{
+  background-color: red !important;
+  color: white !important;
+  &:hover{
+    color:  $black !important;
+  }
+}
+
+.nav-link{
+  background-color:rgba(var(--bs-light-rgb)) !important;
+  color: black;
+  
+  &:hover{
+    color:  red !important;
+  }
+}
+

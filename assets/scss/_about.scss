@@ -1,0 +1,19 @@
+.container-about{
+    position: relative;
+
+    transition: all 1s ease-in;
+}
+.container-about__img{
+    position:absolute;
+}
+.container-about-after-img{
+    position:absolute;
+    padding: 24px 48px;
+    background: rgba(0, 0, 0, .08);
+    margin-top: -24px;
+    margin-right: -24px;
+}
+.container-about-after-img:hover{
+    background-color: red;
+}
+
